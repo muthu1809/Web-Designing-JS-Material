@@ -225,9 +225,9 @@ HTML கோப்பில்:
       // run this function when the document is loaded
       window.onload = () => {
         // create a couple of elements in an otherwise empty HTML page
-        const heading = document.createElement("h1");
-        const headingText = document.createTextNode("Big Head!");
-        heading.appendChild(headingText);
+        const heading = document.createElement("h1"); // <h1> </h1>
+        const headingText = document.createTextNode("Father Of Internet: Tim Berners Lee"); 
+        heading.appendChild(headingText); //<h1> Father Of Internet: Tim Berners Lee</h1>
         document.body.appendChild(heading);
       };
     </script>
@@ -282,7 +282,7 @@ Change Table Border Using Javascript:
     </style>
 </head>
 <body>
-    <h2>Input Valueஐ ஜாவாஸ்கிரிப்ட் மூலம் மாற்றுவோம்</h2>
+    <h2>Input Valueஐ ஜாவாஸ்கிரிப்ட் மூலம் வாங்குவோம் </h2>
     <input id="username"> </input>
     <br>
     <button type="button" onclick="changeStyle()">Click Here</button>
@@ -484,11 +484,3 @@ color: yellow;
 	}
 
 	</script>
-
-
-
-
-
-
-
-
